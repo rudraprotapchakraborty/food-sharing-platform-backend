@@ -1,2 +1,2 @@
 ## Live URL:
-- https://food-sharing-website-server-two.vercel.app/
+- https://food-sharing-server-theta.vercel.app/
