@@ -1,4 +1,23 @@
-# Food Sharing Platform · API
+<div align="center">
+
+# 🥗 Food Sharing Platform
+
+**Share surplus food, request a meal and cut waste, with an accept-and-reserve request flow.**
+
+[**Live demo**](https://food-sharing-platform-frontend-chi.vercel.app/) · [Frontend](https://github.com/rudraprotapchakraborty/food-sharing-platform-frontend) · [API status](https://food-sharing-platform-backend-blush.vercel.app/) · [Portfolio](https://rudraprotapchakraborty.com/projects)
+
+![Node.js](https://img.shields.io/badge/Node.js-3c873a?style=for-the-badge&logo=nodedotjs&logoColor=ffffff) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=ffffff) ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=ffffff) ![MongoDB](https://img.shields.io/badge/MongoDB-47a248?style=for-the-badge&logo=mongodb&logoColor=ffffff) ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=ffffff) ![Google Sign--In](https://img.shields.io/badge/Google_Sign--In-4285f4?style=for-the-badge&logo=google&logoColor=ffffff)
+
+<a href="https://food-sharing-platform-frontend-chi.vercel.app/"><img src="https://i.ibb.co/4RBTYRCg/food-sharing.webp" alt="Food Sharing Platform: home page" width="880"></a>
+
+</div>
+
+> The REST API of **FoodShare**.
+>
+> - Browse, search and filter food by category and how soon it expires
+> - Share food with a photo, servings, pickup place and a collection deadline
+> - Donor accepts or declines requests; accepting reserves the food and reveals contact details
+> - Expired food disappears from the list on its own
 
 REST API for the [Food Sharing Platform](https://food-sharing-platform-frontend-chi.vercel.app/) ([frontend repository](https://github.com/rudraprotapchakraborty/food-sharing-platform-frontend)). Deployed at [food-sharing-platform-backend-blush.vercel.app](https://food-sharing-platform-backend-blush.vercel.app/). Express 5, TypeScript, MongoDB (Mongoose) and Zod.
 
@@ -54,3 +73,11 @@ All routes live under `/api`. Responses look like `{ "success": true, "data": ..
 ## Deploying
 
 Vercel is supported out of the box: `api/index.ts` is the serverless entry and `vercel.json` rewrites every request to it (the MongoDB connection is cached between invocations). Set the environment variables above in the project settings, including `CLIENT_URL`.
+
+---
+
+<div align="center">
+
+Made by **[Rudra Protap Chakraborty](https://rudraprotapchakraborty.com)** · [Portfolio](https://rudraprotapchakraborty.com) · [GitHub](https://github.com/rudraprotapchakraborty)
+
+</div>
