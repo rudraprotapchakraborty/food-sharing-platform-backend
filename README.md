@@ -1,6 +1,6 @@
 # Food Sharing Platform · API
 
-REST API for the [Food Sharing Platform](https://github.com/rudraprotapchakraborty/food-sharing-platform-frontend). Express 5, TypeScript, MongoDB (Mongoose) and Zod.
+REST API for the [Food Sharing Platform](https://food-sharing-platform-frontend-chi.vercel.app/) ([frontend repository](https://github.com/rudraprotapchakraborty/food-sharing-platform-frontend)). Deployed at [food-sharing-platform-backend-blush.vercel.app](https://food-sharing-platform-backend-blush.vercel.app/). Express 5, TypeScript, MongoDB (Mongoose) and Zod.
 
 ## Features
 
@@ -33,7 +33,7 @@ The sample listings live in `scripts/foods.seed.json`: 24 listings (the nine fro
 | --- | --- |
 | `MONGODB_URI`, `MONGODB_DB` | Database connection. The app uses its own database (default `food_sharing`). |
 | `JWT_ACCESS_SECRET` | Secret for signing tokens and hashing codes. |
-| `CLIENT_URL` | Comma separated list of allowed browser origins (include the deployed frontend). |
+| `CLIENT_URL` | Comma separated list of allowed browser origins. Defaults to localhost and the live frontend. |
 | `GOOGLE_CLIENT_ID` | Google OAuth client id used to verify ID tokens. |
 | `SMTP_*`, `MAIL_FROM`, `RESEND_API_KEY` | Email delivery (SMTP first, Resend as fallback). Without either, codes are printed to the console in development. |
 | `IMGBB_API_KEY` | Hosts profile photos. |
